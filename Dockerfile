@@ -5,11 +5,11 @@ FROM openjdk:8-jre-alpine
 # source: https://stackoverflow.com/a/40944512/3128926
 RUN apk update && apk add bash
 
-
+        
 
 # Set the working directory to /app
 WORKDIR /app
-
+     
 # Copy the fat jar into the container at /app
 COPY /target/docker-java-app-example.jar /app
 
