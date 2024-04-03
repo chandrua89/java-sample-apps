@@ -6,6 +6,7 @@ FROM openjdk:8-jre-alpine
 RUN apk update && apk add bash
 
 
+
 # Set the working directory to /app
 WORKDIR /app
 
